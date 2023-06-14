@@ -1,0 +1,52 @@
+.linkItem {
+  text-decoration: none;
+  width: 45%;
+}
+.teamCard {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 0px 20px 20px 0px;
+  cursor: pointer;
+  min-height: 100px;
+}
+.teamCardImage {
+  width: 50px;
+  height: 50px;
+}
+.teamCardName {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  margin-left: 10px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .teamCard {
+    padding: 20px 30px;
+    min-height: 150px;
+  }
+  .teamCardImage {
+    width: 80px;
+    height: 80px;
+  }
+  .teamCardName {
+    font-size: 25px;
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .teamCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 150px;
+  }
+}

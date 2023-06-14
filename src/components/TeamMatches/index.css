@@ -1,0 +1,64 @@
+.appTeamMatchesContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.teamMatchesContainer {
+  width: 90%;
+  margin-top: 40px;
+  max-width: 500px;
+}
+.teamBanner {
+  width: 100%;
+}
+.loaderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.RCB {
+  background: linear-gradient(to top, #1e293b, #a4261d);
+}
+.KKR {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+}
+.KXP {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+.CSK {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+.RR {
+  background: linear-gradient(to top, #1e293b, #da237d);
+}
+.MI {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+.SH {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+.DC {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+}
+.recentMatchesList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .teamMatchesContainer {
+    margin-top: 56px;
+    max-width: 1110px;
+  }
+  .recentMatchesList {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .recentMatchesList {
+    padding-left: 0px;
+  }
+}
